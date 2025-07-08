@@ -1,1 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    min-height: 100vh;
+    /* ...outros estilos... */
+    
+}
 
+body::before {
+    content: "";
+    position: fixed;
+    top:0; left: 0; right: 0; bottom: 0;
+    background-image:url("images/2.jpg");
+    background-size: cover; 
+    background-position: center;    
+    filter: opacity(0.5);
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}   
+
+h1 {
+    font-family: initial;
+    font-size: x-large;
+    text-align: justify;
+    color: #110202;
+    margin-top: 50px;       
+
+}   
+ul {
+    display: ruby;
+    list-style: inside;
+    padding-inline-start: revert-layer;
+    position: fixed;
+    color: rgb(23, 109, 221);
+}
